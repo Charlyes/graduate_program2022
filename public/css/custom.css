@@ -1,0 +1,154 @@
+.toggled .sidebar-brand {
+    justify-content: center;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #363937;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 0.35s linear infinite;
+}
+
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* custom! */
+
+.swal2-popup .swal2-styled.swal2-confirm {
+    background-color: #5d732d !important;
+}
+
+.fc .fc-button-primary:not(:disabled):active,
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+    color: var(--fc-button-text-color, #fff);
+    background-color: #5d732d !important;
+    border-color: #5d732d !important;
+    border: 0px !important;
+}
+
+.fc .fc-button-primary {
+    color: var(--fc-button-text-color, #fff) !important;
+    background-color: #343734 !important;
+}
+
+#openPopup:focus {
+    outline: none !important;
+}
+
+*:focus,
+.fc .fc-button-primary:focus,
+.fc .fc-button-primary:not(:disabled):active:focus,
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus,
+.fc .fc-button-primary:not(:disabled):active:focus,
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus,
+#openPopup:active,
+#openPopup:focus {
+    box-shadow: 0 0 0 !important;
+    /* border-style: none !important; */
+    border-color: #bec3aa !important;
+}
+
+a.btn-primary:hover .text-tertiary {
+    color: #b9b9b9 !important
+}
+
+button:focus {
+    /* outline: 1px dotted; */
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.formarea {
+    padding: 16px;
+    background: #eeebe8;
+    border-radius: 6px;
+    border: 1px #d8d8d8 solid;
+}
+
+.formio .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d5dbc8;
+    border-radius: 0px;
+}
+
+.formio [aria-expanded="true"] {
+    background: #343734;
+    color: #ffffff;
+    border-radius: 0px;
+    transition: 500ms all ease-in-out;
+    border: 0px;
+}
+
+.formio button:focus {
+    border-radius: 0px;
+    box-shadow: 0 0 0 !important;
+}
+
+
+/* Calendar */
+
+.fc-event-title-container {
+    background: #5d732d;
+}
+
+
+/* field */
+
+.field-icon {
+    float: right;
+    margin-right: 10px;
+    margin-top: -27px;
+    position: relative;
+    z-index: 2;
+}
+
+.small-text p {
+    font-size: 10px !important;
+    padding: 0px 5px !important;
+    margin: -3px !important;
+    background: #e6e6e6;
+    border-radius: 4px;
+}
+
+.small-text p {
+    background: #e6e6e6;
+}
+
+.action-collapse {
+    background: #eeebe8;
+    margin-bottom: 17px;
+}
